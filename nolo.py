@@ -12,8 +12,12 @@ def resultof(code):
   return True
 def write(fn, text):
   bro = resultof(open(fn, "w"))
-  with open(fn, ifelseret(bro,"w","x")) as f:
-     f.write(text)
+  try:
+      f = open(fn, "w")
+      f.write(text)
+  except:
+      f = open(fn, "x")
+      f.write(text)
      
      
 print("""
