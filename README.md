@@ -13,7 +13,7 @@ For enviorment in windows:
   Add
   "put\path\to\nolo\project\nolo.bat"
 ```
-or in macOS:
+or in macOS (after there's a shell file):
 ```
   export PATH=$PATH;put/path/to/nolo/project/nolo.sh
 ```
@@ -21,3 +21,5 @@ or in macOS:
 ```
   nolo
 ```
+# Using Nolo
+It's basically theos but for node, pretty much it
